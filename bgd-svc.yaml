@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service       # 네트워크 연결(서비스)
 metadata:           # 1. 기본정보 설정
   name: bgd         # 서비스 고정 이름(도메인 주소)
-  namespace: bdg    # bgd라는 가상의 독립공간(네임스페이스) 안에서 서비스 생성
+  namespace: bgd    # bgd라는 가상의 독립공간(네임스페이스) 안에서 서비스 생성
   labels:
     app: bgd
 spec:               # 2. 목적지 지정
