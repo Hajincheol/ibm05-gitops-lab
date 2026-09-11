@@ -10,4 +10,4 @@ resources:
 images:
 - name: hajincheol/hello-app
   newName: hajincheol/hello-app
-  newTag: 7566dc1
+  newTag: 36cf83c
